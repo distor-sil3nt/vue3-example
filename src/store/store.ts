@@ -1,7 +1,7 @@
-import { defineStore } from 'pinia'
+import { defineStore } from "pinia";
 
-export const useStore = defineStore('store', {
+export const useStore = defineStore("store", {
   state: () => ({
-    headline: 'WebStorm Test',
+    headline: "Vue 3 Test",
   }),
-})
+});
